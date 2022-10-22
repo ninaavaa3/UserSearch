@@ -1,10 +1,9 @@
 import React, { useMemo, useState } from "react";
-
 import Main from "./Component/Main";
 import { faker } from "@faker-js/faker";
+
 const App = () => {
     const [dummynotes, setDummynotes] = useState([]);
-
     const generateRandomNote = () => {
         let tmpNotes = [];
         for (let index = 0; index < 200; index++) {
@@ -12,7 +11,6 @@ const App = () => {
                 {
                     avatar: faker.image.avatar(),
                     text: faker.name.fullName(),
-                    
                 });
         }
 
@@ -28,7 +26,6 @@ const App = () => {
 
     return (
         <div>
-          
             <Main deletandler={deletnotes} note={dummynotes} />
         </div>
     )
