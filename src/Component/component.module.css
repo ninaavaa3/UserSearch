@@ -1,0 +1,15 @@
+.namestyle{
+    font-family:cursive;
+    color: rgb(42, 30, 38);
+    font-weight: lighter;
+   
+}
+.btn{
+    border-radius: 10%;
+    margin-left: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border-color: rgb(183, 160, 183);
+    background-color: rgb(204, 180, 196);
+    border-style: double;
+}

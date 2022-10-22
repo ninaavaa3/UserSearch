@@ -1,0 +1,32 @@
+.home{
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px  rgb(145, 137, 137);
+    color: rgb(95, 49, 83);
+    margin-top: 10%;
+
+}
+.header {
+    margin-top:15px; 
+    margin-right: auto;
+    margin-left: auto;
+    width: 92.5%;
+    height: 10%;
+    padding: 20px;
+    background-color: #9d7b9d;
+    border-radius: 2px;
+    box-shadow: 5px 8px 5px -3px #666;
+    color: rgb(71, 65, 48);
+    
+  }
+  .envelope{
+    width: 30px;
+    height: 30px;
+  
+  }
+  .flex{
+    display: flex;
+    justify-content:center;
+    font-size: x-large;
+    
+  }

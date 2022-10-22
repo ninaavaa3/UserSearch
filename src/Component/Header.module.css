@@ -1,0 +1,40 @@
+.header {
+  margin-top:15px; 
+  margin-right: auto;
+  margin-left: auto;
+  width: 92.5%;
+  height: 10%;
+  padding: 20px;
+  background-color: #9d7b9d;
+  border-radius: 2px;
+  box-shadow: 5px 8px 5px -3px #666;
+  color: rgb(60, 53, 53);
+  text-align: center;
+ 
+ 
+}
+
+.ulcontent {
+  display:flex;
+  justify-content:space-around;
+  font-size: x-large;
+ 
+}
+.acontent{
+  color:#c1c1ca;
+  text-decoration: solid;
+  text-shadow: 2px 2px 3px black;
+}
+.envelope{
+  width: 30px;
+  height: 30px;
+
+}
+.flex{
+  display: flex;
+  justify-content:center;
+  font-size: x-large;
+  
+}
+
+   
