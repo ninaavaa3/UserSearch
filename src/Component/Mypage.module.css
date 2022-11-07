@@ -1,17 +1,41 @@
 .img{
-
-    margin-top: 5%;
-    margin-left: 7%;
-    border-color: rgb(113, 33, 89);
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 1%;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-color: aliceblue;
     border-style: solid;
-    border-radius:7px ;
+    margin-right: 4%;
+    background-color: aliceblue;
+   display: flex;
+   
 
+}
+.seen{
+    margin-left:3%;
 }
 .text{
-    margin-top: 1%;
-    margin-left: 7%;
+  padding-left:15%;
 }
 .grid{
-    margin-left: 20%;
-    margin-top: -2.75%;
+display: flex;
+
+}
+.post{
+    margin-left: 4%;
+    margin-top: 1%;
+    display: flex;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 1%;
+   margin-right: 4%;
+    margin-left: 4%;
+    border-color: aliceblue;
+    border-style: solid;
+    margin-right: 4%;
+    background-color: aliceblue;
+    padding-right: 1%;
 }

@@ -1,20 +1,23 @@
 import React from "react";
 import classes from "./Home.module.css";
 
-import {ReactComponent as Product} from "../Icons/github2.svg";
 
 
-const About=()=>{
 
-    return(
+const About = () => {
+
+    return (
         <>
-       
-        <h2 className={classes.home}>
-            this is About page; a github search!
-        </h2>
+
+            <h2 className={classes.home}>
+                this is a free photo and video sharing app available on web!
+            </h2>
+            <address className={classes.emailadd}>
+                launched by: <a href="mailto:ninaavaa3@gmail.com" className={classes.acontent}>NiloofarHajiloo</a>
+            </address>
         </>
     )
-} 
+}
 
 export default About;
 

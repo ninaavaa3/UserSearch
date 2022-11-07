@@ -30,3 +30,12 @@
     font-size: x-large;
     
   }
+  .emailadd{
+    text-align: center;
+    margin-top: 20%;
+    }
+    .acontent{
+        text-decoration: solid;
+        text-shadow: 2px 2px 3px rgb(89, 84, 84);
+        color: rgb(28, 27, 27);
+    }
